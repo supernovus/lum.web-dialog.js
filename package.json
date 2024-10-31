@@ -1,0 +1,30 @@
+{
+  "name": "@lumjs/web-dialog",
+  "version": "1.0.0",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./presets": "./lib/presets/index.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": 
+  {
+    "@lumjs/web-core": "^1.7.0"
+  },
+  "devDependencies":
+  {
+    "@lumjs/build": "^1.1.0"
+  },
+  "scripts":
+  {
+    "build-meta": "lum-build",
+    "build-jsdoc": "jsdoc -c ./jsdoc.js",
+    "build-docs": "npm run build-meta && npm run build-jsdoc"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.web-dialog.js.git"
+  },
+  "license": "MIT"
+}
