@@ -9,7 +9,7 @@
   },
   "dependencies": 
   {
-    "@lumjs/web-core": "^1.7.0"
+    "@lumjs/web-core": "^1.7.1"
   },
   "devDependencies":
   {
